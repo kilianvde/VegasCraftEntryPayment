@@ -1,0 +1,19 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+/cpw
+/ibxm
+/net
+/paulscode
+*.cfg
+fmlversion.properties
+forge_logo.png
+mcp.png
+mcpmod.info
+Start.java
+BOSEconomy.jar
+craftbukkit-1.6.2-R0.1-20130715.060238-8.jar
