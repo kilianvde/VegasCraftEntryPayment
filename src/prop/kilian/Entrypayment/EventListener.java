@@ -55,10 +55,12 @@ public class EventListener implements Listener {
 				
 				p.teleport(new Location(Bukkit.getWorld("VegasCraft"),xpos,ypos,zpos));
 				p.sendMessage(ChatColor.GOLD + "Teleported succesfully!");
+				return;
 			}
 			else
 			{
 				p.sendMessage(ChatColor.GOLD + "Error , could not take money from player balance !");
+				return;
 			}
 		}
 	}
